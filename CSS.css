@@ -75,14 +75,14 @@ nav {
 
 ul {
   padding: 14;
-  position:	fixed;
+  position:	center;
   margin: 0 auto;
 }
 
 ul li {
   list-style: none;
   display:inline-block;
-  position: fixed;
+  position: center;
   line-height: 100px;
     
 }
