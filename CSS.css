@@ -70,10 +70,14 @@ nav {
   background-color: #000000;
 }
 /* Dosen't collapse properly, does it? */
+/* Viewed The Guardian news paper site for inspiration */
+
 
 ul {
   margin: 0;
   padding: 14;
+  position:	relative;
+  margin: 0 auto;
 }
 
 ul li {
