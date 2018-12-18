@@ -82,7 +82,7 @@ ul {
 ul li {
   list-style: none;
   display:inline-block;
-  float: none;
+  position: center;
   line-height: 100px;
     
 }
