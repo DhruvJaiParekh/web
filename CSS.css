@@ -82,10 +82,9 @@ nav {
 
 ul {
   padding: 124;
-  position:	fixed;
   margin: 0 auto;
   float: none; width: 100%;
-  text-align: center 
+  text-align: center; 
 }
 
 ul li {
