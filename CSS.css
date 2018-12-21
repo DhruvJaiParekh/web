@@ -38,6 +38,7 @@ p{
   padding: inherit;
   text-align: left;
 columns: 4;
+column-rule: 40px;
   display:inline-block;
 margin: auto;	
 float: none; width: 85%;
@@ -46,12 +47,8 @@ float: none; width: 85%;
 
 header{
   color:						#000000;
-  column-span:			all;
-  column-span:			all;
-  column-span:				all;
-  column-span:		all;
-  column-span:				all;
   display:					block;
+  column-span: all;
   margin:						0 0 2% 0;	
 }
 
@@ -93,7 +90,7 @@ ul li {
   display:inline-block;
   position: right;
   line-height: 100px; 
-  padding: 1em 1em 1em 1em;
+  padding: 1em;
 }
 
 ul li a {
