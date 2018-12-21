@@ -93,6 +93,7 @@ ul li {
   display:inline-block;
   position: right;
   line-height: 100px; 
+  padding: 1em;
 }
 
 ul li a {
