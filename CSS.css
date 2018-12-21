@@ -79,7 +79,7 @@ picture {
 nav {
   height: 100px;
   background-color: #000000;
-  float: none; width: 100%;
+  float: center;
   min-width: 800px;
   margin: auto;
   padding: .1em;
