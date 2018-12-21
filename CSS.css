@@ -44,7 +44,6 @@ column-rule: 40px;
 column-rule-color: #000000;
 column-width: 15px;
   display:inline-block;
-margin: auto;	
 float: none; width: 85%;
 border-bottom: 4px dotted #111;
 border-left: 4px solid #000000;
@@ -83,7 +82,7 @@ nav {
   float: none; width: 100%;
   min-width: 800px;
   margin: auto;
-  padding: inherit;
+  padding: .1em;
 }
 /* Dosen't collapse properly, does it? */
 /* Viewed The Guardian news paper site for inspiration */
