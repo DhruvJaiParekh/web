@@ -47,7 +47,8 @@ column-width: 15px;
 margin: auto;	
 float: none; width: 85%;
 border-bottom: 4px dotted #111;
-  
+border-left: 4px solid #000000;
+border-right: 4px solid #000000;
 }
 
 header{
