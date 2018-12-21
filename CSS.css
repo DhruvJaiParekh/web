@@ -77,13 +77,15 @@ picture {
   float: right;
 }
 nav {
-  height: 100px;
-  background-color: #000000;
-  float: center;
-  min-width: 800px;
-  margin: auto;
+  order: -3;
   padding: .1em;
-  -moz-float-edge: 34;
+  display: inline-block;
+}
+nav> ul{
+  list-style-type: none;
+  border-bottom: 4px solid #000000;
+  border-top: 4px solid #000000;
+  text-align: center;
 }
 /* Dosen't collapse properly, does it? */
 /* Viewed The Guardian news paper site for inspiration */
