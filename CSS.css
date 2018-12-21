@@ -66,10 +66,10 @@ picture {
   float: right;
 }
 nav {
-  height: 110px;
+  height: 100px;
   background-color: #000000;
-  float: none; width: 60%;
-  min-width: 600px;
+  float: none; width: 100%;
+  min-width: 800px;
 }
 /* Dosen't collapse properly, does it? */
 /* Viewed The Guardian news paper site for inspiration */
@@ -77,9 +77,9 @@ nav {
 
 ul {
   padding: 14;
-  position:	right;
+  position:	center;
   margin: 0 auto;
-  float: none; width: 85%;
+  float: none; width: 100%;
 }
 
 ul li {
@@ -87,6 +87,7 @@ ul li {
   display:inline-block;
   position: right;
   line-height: 100px;
+  float: none; width: 100%;
     
 }
 
@@ -97,6 +98,7 @@ ul li a {
   font-family: 'Allerta Stencil', sans-serif;
   color: #ffffff;
   padding: 0 20px;
+  float: none; width: 100%;
   
 }
 
