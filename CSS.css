@@ -81,10 +81,11 @@ nav {
 
 
 ul {
-  padding: 124;
+  padding: .1em;
   margin: 0 auto;
   float: none; width: 100%;
   text-align: center; 
+  display: inline-block;
 }
 
 ul li {
