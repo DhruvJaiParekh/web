@@ -96,6 +96,7 @@ ul {
 }
 
 ul li {
+  padding: 10%;
   list-style: none;
   display: inline-block;
   position: right;
