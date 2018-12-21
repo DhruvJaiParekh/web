@@ -39,6 +39,8 @@ p{
   text-align: left;
 columns: 4;
 column-rule: 40px;
+column-rule-color: #000000;
+column-width: 15px;
   display:inline-block;
 margin: auto;	
 float: none; width: 85%;
