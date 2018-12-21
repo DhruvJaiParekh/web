@@ -86,7 +86,8 @@ ul li {
   list-style: none;
   display:inline-block;
   position: right;
-  line-height: 100px;  
+  line-height: 100px; 
+  text-align: center 
 }
 
 ul li a {
