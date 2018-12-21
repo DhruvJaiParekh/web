@@ -80,6 +80,7 @@ ul {
   position:	center;
   margin: 0 auto;
   float: none; width: 100%;
+  text-align: center 
 }
 
 ul li {
@@ -87,7 +88,6 @@ ul li {
   display:inline-block;
   position: right;
   line-height: 100px; 
-  text-align: center 
 }
 
 ul li a {
@@ -97,7 +97,6 @@ ul li a {
   font-family: 'Allerta Stencil', sans-serif;
   color: #ffffff;
   padding: 0 20px;
-  text-align: center
 }
 
 ul li a:hover {
