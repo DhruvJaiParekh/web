@@ -70,6 +70,8 @@ nav {
   height: 100px;
   background-color: #000000;
   float: none; 
+  min-width: 800px;
+  shape-margin: 0%;
 }
 /* Dosen't collapse properly, does it? */
 /* Viewed The Guardian news paper site for inspiration */
