@@ -68,8 +68,8 @@ picture {
 nav {
   height: 110px;
   background-color: #000000;
-  float: none; width: 80%;
-  min-width: 800px;
+  float: none; width: 60%;
+  min-width: 600px;
 }
 /* Dosen't collapse properly, does it? */
 /* Viewed The Guardian news paper site for inspiration */
