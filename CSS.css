@@ -91,9 +91,9 @@ ul {
 ul li {
   list-style: none;
   display:inline-block;
-  position: right;
+  position: center;
   line-height: 100px; 
-  padding: 1em 1em 1em 1em;
+  padding: 1em;
 }
 
 ul li a {
