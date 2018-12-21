@@ -81,10 +81,6 @@ nav {
   order: -3;
   padding: .1em;
   display: inline-block;
-  height: 100px;
-  background-color: #ffffff;
-  min-width: 800px;
-  margin: auto;
 }
 nav> ul{
   list-style-type: none;
