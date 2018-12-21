@@ -75,6 +75,7 @@ footer {
 }
 picture {
   float: right;
+  object-fit: cover;
 }
 nav {
   order: -3;
