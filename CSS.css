@@ -82,6 +82,8 @@ nav {
   background-color: #000000;
   float: none; width: 100%;
   min-width: 800px;
+  margin: auto;
+  padding: inherit;
 }
 /* Dosen't collapse properly, does it? */
 /* Viewed The Guardian news paper site for inspiration */
@@ -97,7 +99,7 @@ ul {
 
 ul li {
   list-style: none;
-  display:inline-block;
+  display: inline-block;
   position: right;
   line-height: 100px; 
   padding: 1em;
