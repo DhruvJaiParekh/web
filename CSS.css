@@ -78,7 +78,7 @@ picture {
   width: 100%;
 }
 nav {
-  order: -3;
+  order: 0;
   padding: .1em;
   display: inline-block;
 }
