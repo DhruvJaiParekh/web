@@ -79,7 +79,7 @@ picture {
 }
 nav {
   order: 0;
-  padding: .1em;
+  padding: .4em;
   display: inline-block;
 }
 nav> ul{
