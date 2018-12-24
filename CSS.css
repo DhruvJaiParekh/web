@@ -116,3 +116,10 @@ ul li a {
 ul li a:hover {
   color: #808080;
 }
+
+/* Media Query */
+@media screen and (max-width:480px) {  
+  .Computer-min img {
+    display: none;
+  }
+}
