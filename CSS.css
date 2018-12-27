@@ -74,9 +74,10 @@ picture {
   width: 100%;
   object-fit: cover;
 }
+
 nav {
   order: 0;
-  padding: .1em .1em .1em .1em;
+  padding: .10em;
   display: inline-block;
 }
 nav> ul{
