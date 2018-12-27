@@ -38,9 +38,9 @@ p {
 columns: 3;
 column-rule: 40px;
 column-rule-color: #000000;
--webkit-column-width: 150px;
-     -moz-column-width: 150px;
-          column-width: 150px;
+-webkit-column-width: 250px;
+     -moz-column-width: 250px;
+          column-width: 250px;
   display:inline-block;
 float: none; width: 85%;
 border-left: 2px solid #000000;
