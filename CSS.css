@@ -29,7 +29,8 @@ h3 {
   border-bottom: 4px dashed #111;
 }
 
-p{
+/* https://css-tricks.com/guide-responsive-friendly-css-columns/ */
+p {
   font-family: 'Inconsolata', monospace;
  margin: auto;
   padding: inherit;
@@ -37,7 +38,9 @@ p{
 columns: 3;
 column-rule: 40px;
 column-rule-color: #000000;
-column-width: 15px;
+-webkit-column-width: 150px;
+     -moz-column-width: 150px;
+          column-width: 150px;
   display:inline-block;
 float: none; width: 85%;
 border-left: 2px solid #000000;
