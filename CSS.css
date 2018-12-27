@@ -76,7 +76,6 @@ picture {
 }
 
 nav {
-  order: 0;
   padding: .10em;
   display: inline-block;
 }
