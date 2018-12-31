@@ -20,12 +20,12 @@ h1 {
   color: #ffffff;
   text-align: center;
   border-bottom: 4px solid #111;
-  background-color: #041056
+  background-color: #041056;
 }
   
 h3 {
   background-color: #041056;
-  color: #ffffff
+  color: #ffffff;
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 32px;
   text-align: center;
@@ -63,7 +63,7 @@ header{
 
 footer {			
   color: #ffffff;
-  background-color: #041056
+  background-color: #041056;
   font-family: 'Allerta Stencil', sans-serif;
   font-size:					1em;	
   line-height:				1.438em;
