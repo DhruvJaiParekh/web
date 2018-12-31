@@ -17,13 +17,15 @@ body {
 h1 {
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 32px;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   border-bottom: 4px solid #111;
   background-color: #041056
 }
   
 h3 {
+  background-color: #041056;
+  color: #ffffff
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 32px;
   text-align: center;
@@ -60,7 +62,8 @@ header{
 }
 
 footer {			
-  color:						#041056;
+  color: #ffffff;
+  background-color: #041056
   font-family: 'Allerta Stencil', sans-serif;
   font-size:					1em;	
   line-height:				1.438em;
