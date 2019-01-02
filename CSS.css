@@ -138,6 +138,21 @@ ul li a:hover {
   footer{
     background: rgb(0, 143, 59);
   }
+  h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: rgb(0, 143, 59);
+  }
+  h3 {
+    background-color: rgb(0, 143, 59);
+    color: #ffffff;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 52px;
+  }
+  p {
+    font-size: 63px;
+  }
 }
 @media screen and (max-width: 700px){
   footer{
