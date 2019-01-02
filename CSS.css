@@ -31,8 +31,11 @@ h3 {
   text-align: center;
   border-bottom: 4px dashed #111;
 }
-
-/* https://css-tricks.com/guide-responsive-friendly-css-columns/ */
+/* I used this web page to help me understand how to use different styles of borders
+https://www.w3schools.com/csSref/pr_border-top_style.asp */
+/* I spent a couple hours reading
+ through this web page so i could understand how to properly create effective and responsive columns
+ https://css-tricks.com/guide-responsive-friendly-css-columns/ */
 p {
   font-family: 'Inconsolata', monospace;
  margin: auto;
@@ -97,9 +100,10 @@ nav> ul{
   text-align: center;
 }
 /* Dosen't collapse properly, does it? */
+/* I am happy with how my website collapses now */
 /* Viewed The Guardian news paper site for inspiration */
 
-
+/* The following is CSS for my navigation bar */
 ul {
   float: none; width: 100%;
   text-align: center; 
@@ -107,7 +111,6 @@ ul {
 }
 
 ul li {
-  padding: 2%;
   list-style: none;
   display: inline-block;
   position: right;
@@ -123,7 +126,7 @@ ul li a {
   color: #000000;
   padding: 2px;
 }
-
+/* text colour change when mouse hovers over it */
 ul li a:hover {
   color: #808080;
 }
