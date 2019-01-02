@@ -87,6 +87,11 @@ picture {
   object-fit: cover;
 }
 
+video {
+  width: 100%;
+  position: relative;
+}
+
 nav {
   padding: .10em;
   display: inline-block;
