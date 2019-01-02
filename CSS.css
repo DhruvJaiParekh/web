@@ -45,7 +45,7 @@ column-rule-color: #000000;
      -moz-column-width: 250px;
           column-width: 250px;
   display:inline-block;
-float: none; width: 85%;
+float: none; width: 100%;
 border-left: 2px solid #000000;
 border-right: 2px solid #000000;
 column-rule: 2px dotted #000000;
@@ -76,6 +76,8 @@ footer {
   border-bottom: 4px solid #111;
   border-top: 4px solid #111;
 }
+
+
 picture {
   float: right;
   width: 100%;
