@@ -44,15 +44,15 @@ p {
 columns: 3;
 column-rule: 40px;
 column-rule-color: #000000;
--webkit-column-width: 150px;
-     -moz-column-width: 150px;
-          column-width: 150px;
+-webkit-column-width: 350px;
+     -moz-column-width: 350px;
+          column-width: 350px;
   display:inline-block;
 float: none; width: 100%;
 border-left: 2px solid #000000;
 border-right: 2px solid #000000;
 column-rule: 2px dotted #000000;
-max-width: 1999px;
+max-width: 10000px;
 min-width: 100px;
 }
 
