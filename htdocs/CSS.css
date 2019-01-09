@@ -1,0 +1,223 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+/* Might change the pixel size in the main body of the CSS */
+
+body {
+  background-color: #f6f6f6;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #000000;
+}
+
+h1 {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 4px solid #111;
+  background-color: #041056;
+}
+  
+h3 {
+  background-color: #041056;
+  color: #ffffff;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  border-bottom: 4px dashed #111;
+}
+/* I used this web page to help me understand how to use different styles of borders
+https://www.w3schools.com/csSref/pr_border-top_style.asp */
+/* I spent a couple hours reading
+ through this web page so i could understand how to properly create effective and responsive columns
+ Katy DeCorah, last updated March 2017, https://css-tricks.com/guide-responsive-friendly-css-columns/ */
+p {
+  font-family: 'Inconsolata', monospace;
+ margin: auto;
+  padding: inherit;
+  text-align: left;
+columns: 3;
+column-rule: 40px;
+column-rule-color: #000000;
+-webkit-column-width: 350px;
+     -moz-column-width: 350px;
+          column-width: 350px;
+  display:inline-block;
+float: none; width: 100%;
+border-left: 2px solid #000000;
+border-right: 2px solid #000000;
+column-rule: 2px dotted #000000;
+max-width: 10000px;
+min-width: 100px;
+}
+
+header{
+  color:						#000000;
+  display:					block;
+  column-span: all;
+  margin:					 2%;	
+  columns: auto;
+}
+
+footer {			
+  color: #ffffff;
+  background-color: #041056;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size:					1em;	
+  line-height:				1.438em;
+  column-span:				all;
+  display:					block;
+  margin:						0;
+  padding:					0;
+  position:					relative;
+  text-align:					center;
+  border-bottom: 4px solid #111;
+  border-top: 4px solid #111;
+}
+
+
+picture {
+  float: right;
+  width: 100%;
+  object-fit: cover;
+}
+
+video {
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  padding: .10em;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+nav> ul{
+  list-style-type: none;
+  border-bottom: 4px solid #000000;
+  border-top: 4px solid #000000;
+  text-align: center;
+}
+/* Dosen't collapse properly, does it? */
+/* I am happy with how my website collapses now */
+/* Viewed The Guardian news paper site for inspiration */
+
+/* The following is CSS for my navigation bar */
+ul {
+  float: none; width: 100%;
+  text-align: center; 
+  display: inline-block;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 100px; 
+  padding: 1em;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #000000;
+  padding: 2px;
+}
+/* text colour change when mouse hovers over it */
+ul li a:hover {
+  color: #808080;
+}
+
+/* Media Queries */
+/* Reference: https://www.youtube.com/watch?v=5xzaGSYd7jM - this video helped me learn how to use media queries */
+
+@media screen and (max-width: 1000px){
+  head{
+    font-size: 40px;
+  }
+  h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    background-color: rgb(0, 143, 59);
+  }
+  h3 {
+    background-color: rgb(0, 143, 59);
+    color: #ffffff;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  nav{
+    font-size: 20px;
+  }
+  footer{
+    background: rgb(0, 143, 59);
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 700px){
+  head{
+    font-size: 50px;
+  }
+  h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    background-color: red;
+  }
+  h3 {
+    background-color: red;
+    color: #ffffff;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  nav{
+    font-size: 20px;
+  }
+  footer{
+    background: red;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px){
+  head{
+    font-size: 60px;
+  }
+  h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: rgb(19, 123, 243);
+  }
+  h3 {
+    background-color: rgb(19, 123, 243);
+    color: #ffffff;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 50px;
+  }
+  p {
+    font-size: 30px;
+  }
+  nav{
+    width: 98%;
+    font-size: 30px;
+  }
+  footer{
+    background: rgb(19, 123, 243);
+    font-size: 30px;
+  }
+}
